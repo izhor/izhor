@@ -1,12 +1,12 @@
 
-@font-face {
-    font-family: 'poppins';
-    src: url('../font/Poppins-Regular.ttf');
-}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 
 
 *{
-    font-family: 'poppins';
+    font-family: 'Poppins', sans-serif;
 }
 
 @font-face {
@@ -17,12 +17,10 @@
     font-family: 'Metropolis';
 }
 
-@font-face {
-    font-family: 'Panton';
-    src: url('../font/Panton-LightCaps.otf');
+
+.font-poppins{
+    font-family: 'Poppins';
 }
-
-
 .font-panton{
     font-family: 'Panton';
 }
@@ -33,9 +31,7 @@ img{
 }
 
 
-.font-poppins{
-    font-family: 'poppins';
-}
+
 
 
 body{

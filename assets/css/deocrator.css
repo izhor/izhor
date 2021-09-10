@@ -131,6 +131,9 @@ p{
     color: white;
 }
 
+.rounded-mod{
+    border-radius:1rem;
+}
 
 .sub-header{
     text-align: center;
@@ -138,7 +141,7 @@ p{
 }
 
 .brand-enlarge{
-    font-size: 40px;
+    
     text-decoration: none;
     font-family: 'Metropolis';
     font-weight: 600;
@@ -247,6 +250,8 @@ textarea{
         outline: none;
         padding: 0 15px;
     }
+
+   
 
     
 }

@@ -20,6 +20,7 @@
 			<!-- link to another file -->
 		<link rel="stylesheet" href="assets/css/deocrator.css">
 	
+		<script src="assets/js/navbar-toggle.js"></script>
 		<script src="assets/js/scroll-effect.js"></script>
 		<script src="assets/js/sendmail.js"></script>  
 		<link rel="stylesheet" href="assets/css/progress-bar-alt.css">
@@ -48,8 +49,8 @@
 		<nav id="navbar_top" class="navbar navbar-expand-lg navbar-light fixed-top text-dark nav-transparented shadow">
 			<div class="container">
 				<a class="brand-enlarge link-dark fs-1 fw-bold" href="https://webmshare.com/o175v"> I Z O R U </a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
-					<i class="fas fa-times"></i>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" onclick="changeIcons();">
+					<i class="fas fa-bars" id="togglebtn"></i>
 				</button>
 				<div class="collapse navbar-collapse fw-bold" id="main_nav">
 					<ul class="navbar-nav ms-auto ">

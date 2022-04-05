@@ -1,3 +1,34 @@
+//navbar toggle
+function changeIcons(){
+    var toggleBtn = document.getElementById("togglebtn");
+    if (document.getElementById("togglebtn").className == "fas fa-bars") {
+        toggleBtn.classList.remove("fa-bars");
+        toggleBtn.classList.add("fa-times");
+
+    }else{
+        toggleBtn.classList.remove("fa-times");
+        toggleBtn.classList.add("fa-bars");
+    }
+}
+
+//scroll effect
+
+$(document).ready(function() {
+    $("a").on('click', function(event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 500, function() {
+                window.location.hash = hash;
+            });
+        }
+    });
+});
+
+//send to email
+
 function sendEmail(){var sender=document.getElementById('name').value;
 var email=document.getElementById('email').value;
 var question=document.getElementById('question').value;

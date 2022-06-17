@@ -208,7 +208,15 @@ textarea{
 
 
 
+.img-custom{
+    max-width: 300px;
+    height: auto;
+}
 
+.img-small{
+    max-width: 50px;
+    height: auto;
+}
 
 
 

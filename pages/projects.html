@@ -26,59 +26,162 @@
 		<div class="text-center h1 text-light fw-bold" style="margin-top: 100px;">PROJECTS</div>
 		<div class=" container-fluid py-5" >
 			<div class="row">
-				<div class="col-xl-6 col-lg-6 mb-4">
+				<div class="col-xl-4 col-lg-4 mb-4">
 					<div class="card bg-white rounded-3 p-2 shadow ">
-                        <img src="../assets/img/Travy.png" class="card-img-top img-fluid" alt="">
+                        <img src="../assets/img/Travy.png" class="card-img-top img-custom" alt="">
                         <div class="card-body">
                             <h5 class="card-title fw-bold">Travy</h5>
                             <p class="card-text">
                                 A simple CRUD Travel app that created with Laravel 8.x
                             </p>
                             <div class="btn-group mb-1">
-                                <button class="btn btn-dark btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                  Used Technology
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#Travy">
+                                    <i class="fas fa-search"></i> Details
                                 </button>
-                                <ul class="dropdown-menu">
-                                    <li class="dropdown-item">Laravel 8.x</li>
-                                    <li class="dropdown-item">MySQL</li>
-                                </ul>
-                        </div>
-                            <br>
-                            <div class="d-flex">
-                                <a href="https://github.com/izhor/travel_app/tree/master" class="text-dark m-1 fs-4"><i class="fab fa-github"></i></a>
-                                <a href="http://travy-ticket.herokuapp.com/" class="text-primary m-1 fs-4"><i class="fas fa-globe"></i></a>
+                                
+                                <!-- Modal -->
+                                <div class="modal fade" id="Travy" tabindex="-1" aria-labelledby="TravyLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="TravyLabel">Project Details</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Made with
+                                                <div class="d-flex justify-content-start m-2 flex-wrap">
+                                                    <div class="badge bg-secondary text-wrap fw-lighter fs-6 m-2">
+                                                        Laravel 8
+                                                    </div>
+                                                    <div class="badge bg-secondary text-wrap fw-lighter fs-6 m-2">
+                                                        MySQL
+                                                    </div>
+                                                    <div class="badge bg-secondary text-wrap fw-lighter fs-6 m-2">
+                                                        Bootstrap
+                                                    </div>
+                                                </div>
+                                                Link(s)
+                                                <div class="m-2 d-flex">
+                                                    <div class="link-item">
+                                                        <a target="_blank" href="https://github.com/izhor/travel_app/tree/master" class="btn btn-dark btn-sm m-1 d-flex align-items-center"><i class="fab fa-github fs-4 m-1"></i> Github</a> 
+                                                    </div>
+                                                    <a target="_blank" href="http://travy-ticket.herokuapp.com/" class="btn btn-primary btn-sm m-1 d-flex align-items-center"><i class="fas fa-globe fs-4 m-1"></i> Web</a>
+                                                </div>
+                                            </div>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 					</div>
 				</div>
 
-                <div class="col-xl-6 col-lg-6 mb-4">
+                <div class="col-xl-4 col-lg-4 mb-4">
 					<div class="card bg-white rounded-3 p-2 shadow ">
-                        <img src="../assets/img/mongodb_express.png" class="card-img-top img-fluid" alt="">
+                        <img src="../assets/img/mongodb_express.png" class="card-img-top img-custom" alt="">
                         <div class="card-body">
                             <h5 class="card-title fw-bold">MongoDB + Node.js API</h5>
                             <p class="card-text">
                                 A simple CRUD that uses Node.js and MongoDB Database (back-end only)
                             </p>
                             <div class="btn-group mb-1">
-                                <button class="btn btn-dark btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                  Used Technology
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#Mongo_NodejsModal">
+                                    <i class="fas fa-search"></i> Details
                                 </button>
-                                <ul class="dropdown-menu">
-                                    <li class="dropdown-item">Node.js</li>
-                                    <li class="dropdown-item">MongoDB</li>
-                                </ul>
-                        </div>
-                            <br>
-                            <div class="d-flex">
-                                <a href="https://github.com/izhor/Express_MongoDB_API" class="text-dark m-1 fs-4"><i class="fab fa-github"></i></a>
                                 
+                                <!-- Modal -->
+                                <div class="modal fade" id="Mongo_NodejsModal" tabindex="-1" aria-labelledby="Mongo_NodejsModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="Mongo_NodejsModalLabel">Project Details</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Made with
+                                            <div class="d-flex justify-content-start m-2 flex-wrap">
+                                                <div class="badge bg-secondary text-wrap fw-lighter fs-6 m-2">
+                                                    MongoDB
+                                                </div>
+                                                <div class="badge bg-secondary text-wrap fw-lighter fs-6 m-2">
+                                                    NodeJS
+                                                </div>
+                                                <div class="badge bg-secondary text-wrap fw-lighter fs-6 m-2">
+                                                    Express
+                                                </div>
+                                            </div>
+                                            Link(s)
+                                            <div class="m-2 d-flex">
+                                                <a target="_blank" href="https://github.com/izhor/Express_MongoDB_API" class="btn btn-dark btn-sm m-1 d-flex align-items-center"><i class="fab fa-github fs-4 m-1"></i> Github</a> 
+                        
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 					</div>
 				</div>
-				
                 
+                <div class="col-xl-4 col-lg-4 mb-4">
+					<div class="card bg-white rounded-3 p-2 shadow ">
+                        <img src="../assets/img/mongodb_express.png" class="card-img-top img-custom" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">MERD Stack Crud</h5>
+                            <p class="card-text">
+                                CRUD - Based application that uses MERN tech stack
+                            </p>
+                            <div class="btn-group mb-1">
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#MERN_StackModal">
+                                    <i class="fas fa-search"></i> Details
+                                </button>
+                                
+                                <!-- Modal -->
+                                <div class="modal fade" id="MERN_StackModal" tabindex="-1" aria-labelledby="MERN_StackModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="MERN_StackModalLabel">Project Details</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Made with
+                                                <div class="d-flex justify-content-start m-2 flex-wrap">
+                                                    <div class="badge bg-secondary text-wrap fw-lighter fs-6 m-2">
+                                                        MongoDB
+                                                    </div>
+                                                    <div class="badge bg-secondary text-wrap fw-lighter fs-6 m-2">
+                                                        Express
+                                                    </div>
+                                                    <div class="badge bg-secondary text-wrap fw-lighter fs-6 m-2">
+                                                        ReactJS
+                                                    </div>
+                                                    <div class="badge bg-secondary text-wrap fw-lighter fs-6 m-2">
+                                                        NodeJS
+                                                    </div>
+                                                    <div class="badge bg-secondary text-wrap fw-lighter fs-6 m-2">
+                                                        Bootstrap 5
+                                                    </div>
+
+                                                </div>
+                                                Link(s)
+                                                <div class="m-2 d-flex">
+                                                    <a target="_blank" href="https://github.com/izhor/React_Node_Mongo_CRUD" class="btn btn-dark btn-sm m-1 d-flex align-items-center"><i class="fab fa-github fs-4 m-1"></i> Github</a> 
+                            
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</body>
